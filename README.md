@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Sales Dashboard](docs/dashboardoverview.png)
+![Sales Dashboard](docs/dashboard-overview.png)
 
 ## 📌 Project Overview
 
