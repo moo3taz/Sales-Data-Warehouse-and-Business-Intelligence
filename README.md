@@ -1,5 +1,9 @@
 # 📊 Sales Data Warehouse & Business Intelligence Solution
 
+## Dashboard Preview
+
+![Sales Dashboard](docs/dashboard-overview.png)
+
 ## 📌 Project Overview
 
 This project demonstrates the design and implementation of a complete Sales Data Warehouse and Business Intelligence solution using SQL Server and Power BI.
