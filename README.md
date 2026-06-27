@@ -1,28 +1,95 @@
-# Data-management_project
-building a modern data warehouse with SQL server, ETL, data modeling, data analytics
-🏗️ Data Architecture
+# 📊 Sales Data Warehouse & Business Intelligence Solution
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture]
+## 📌 Project Overview
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+This project demonstrates the design and implementation of a complete Sales Data Warehouse and Business Intelligence solution using SQL Server and Power BI.
+
+The solution follows the Medallion Architecture (Bronze, Silver, Gold) to transform raw sales data into a clean, analytical data model that supports interactive dashboards and business decision-making.
 
 ---
-## 📖 Project Overview
 
-This project involves:
+## 🎯 Business Problem
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+Organizations often store sales data in multiple raw files, making it difficult to analyze business performance and generate reliable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+This project builds a modern data warehouse to clean, transform, and organize sales data before visualizing it through Power BI dashboards.
+
+---
+
+## 🛠 Tech Stack
+
+- SQL Server
+- T-SQL
+- ETL
+- Medallion Architecture
+- Star Schema
+- Power BI
+- DAX
+- Power Query
+
+---
+
+## 🏗 Project Architecture
+
+Raw Data
+⬇
+Bronze Layer
+⬇
+Silver Layer
+⬇
+Gold Layer
+⬇
+Star Schema
+⬇
+Power BI Dashboard
+
+---
+
+## 📊 Dashboard Features
+
+- Sales Performance Analysis
+- Revenue & Profit KPIs
+- Customer Analysis
+- Product Performance
+- Time Intelligence
+- Regional Analysis
+
+---
+
+## 📈 Key Business Insights
+
+- Identified top-performing products based on revenue and profit.
+- Analyzed monthly sales trends to support strategic planning.
+- Evaluated regional sales performance across different markets.
+- Measured customer purchasing behavior and contribution to revenue.
+- Built KPIs to monitor business performance efficiently.
+
+## 📂 Repository Structure
+
+datasets/
+
+docs/
+
+power Bi/
+
+scripts/
+
+tests/
+
+---
+## 🎯 Skills Demonstrated
+
+- Data Warehousing
+- ETL Development
+- SQL Query Optimization
+- Star Schema Modeling
+- Data Modeling
+- Business Intelligence
+- Dashboard Development
+- Data Visualization
+
+## 🚀 Author
+
+**Moataz Sobhy Elkholy**
+
+Junior Data Analyst | Business Intelligence Analyst
